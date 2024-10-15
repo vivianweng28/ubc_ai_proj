@@ -1,0 +1,4 @@
+Given these original context words and their importance: 
+Here are the additional context words with their according importance from 0-1:
+and the prompt: 
+generate a Google query that would help identify possible companies to reach out to

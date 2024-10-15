@@ -1,0 +1,10 @@
+Prompt: , What is the 1- 3 word topic of this prompt?
+
+Prompt: , What words are the context of this prompt?
+
+Give a weight from 0 -1 to each of the words [] corresponding to their importance to the prompt: 
+
+Given these weighted importance of each word to the prompt:
+and the prompt: , generate more context words that are relevant to the prompt that would help achieve the goal described in the prompt and give their according importance from 0-1, not constrained to sum up to 1
+
+
