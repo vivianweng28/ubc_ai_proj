@@ -26,4 +26,3 @@ class DataCollector:
 
     def modifyPrompt(self):
         #find [], insert prompt[1] contents
-        

@@ -1,11 +1,13 @@
-# api key: AIzaSyBxsrHn41VQiBGcbG3xojrD0wMC4uWZfnY
-
 import google.generativeai as genai
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
-os.environ["API_KEY"] = 'AIzaSyBxsrHn41VQiBGcbG3xojrD0wMC4uWZfnY'
+API_KEY = os.getenv('PROJECT_API_KEY')
+os.environ["API_KEY"] = API_KEY
+
 genai.configure(api_key=os.environ["API_KEY"])
-datacollection
+
 
 model = genai.GenerativeModel('gemini-1.5-flash-latest')
 response = model.generate_content("")
